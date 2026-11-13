@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Local cache directories
+.keras/
+.matplotlib/
+.ipython/
+.jupyter_data/
+.jupyter_config/
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Large raw datasets (PaySim)
+data/PS_20174392719_1491204439457_log.csv
+data/*.parquet
+*.csv.zip
+
+# OS specific
+.DS_Store
+Thumbs.db
