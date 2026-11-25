@@ -210,8 +210,8 @@ with tab_fraud:
 
         st.markdown(f"""
         **Engineered Ledger Discrepancies**:
-        - $\\text{{errorBalanceOrig}} = \\text{{newbalanceOrig}} + \\text{{amount}} - \\text{{oldbalanceOrg}} = \\mathbf{{\\${err_orig:,.2f}}}$
-        - $\\text{{errorBalanceDest}} = \\text{{oldbalanceDest}} + \\text{{amount}} - \\text{{newbalanceDest}} = \\mathbf{{\\${err_dest:,.2f}}}$
+        - `errorBalanceOrig` = `newbalanceOrig + amount - oldbalanceOrg` = **${err_orig:,.2f}**
+        - `errorBalanceDest` = `oldbalanceDest + amount - newbalanceDest` = **${err_dest:,.2f}**
         """)
 
         if st.button("🔍 Evaluate Transaction Fraud Risk", type="primary"):
